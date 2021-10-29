@@ -1,0 +1,132 @@
+body {
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,150,151,0.7738445720084909) 37%, rgba(0,212,255,1) 100%);;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+#text {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+#userinput{
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+#enter {
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+    padding-bottom: 20px;
+	color: white;
+	background-color: rgb(112, 103, 114);
+	transition: all 0.75s ease;
+	font-weight: normal;
+}
+#enter:hover{
+	background-color: #353835;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+li {
+	list-style: none;
+    margin-left: 300px;
+    padding: 7px 15px;
+	width: 50%;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #c06f6f;
+	transition: all 0.75s ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+    text-decoration: line-through;
+}
+.delete {
+	display: none;
+}
+.dropbtn {
+        background-color: rgb(17, 19, 141);
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+  }
+ 	
+  .dropdown {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100px;
+    background-color:#000000;
+    border-radius: 20px;
+    width: 500px;
+    height:200px;
+    box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content div {
+    color: skyblue;
+    font-size: 60px;
+    padding-top: 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
